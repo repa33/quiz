@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+body {
+    background-color: rgb(255,192,203);
+}
+
+
+.question-block {
+    margin-top: 30vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.question {
+    font-size: 100px;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+.answers-row {
+    display: flex;
+    box-sizing: border-box;
+}
+.answer, .start {
+    background-color: rgb(255, 234, 238);
+    font-family: 'Montserrat',sans-serif;
+    border: 5px double white;
+    width: 50px;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex
+}
+
+.start {
+    width: 300px
+}
+.stat-block {
+    margin-top: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.result {
+    /* font-family: "Pixelify Sans", sans-serif; */
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-size: 70;
+}
